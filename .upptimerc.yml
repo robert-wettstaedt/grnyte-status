@@ -26,3 +26,31 @@ status-website:
       href: /
     - title: grnyte
       href: https://grnyte.rocks
+      status-website:
+  css: |
+    :root:root {
+      --body-background-color: oklch(0.165 0.008 305);   /* surface-950 */
+      --body-text-color: oklch(0.99 0.003 70);           /* surface-50 */
+      --card-background-color: oklch(0.215 0.01 305);    /* surface-900 */
+      --card-border-color: oklch(0.285 0.011 308);       /* surface-800 */
+      --nav-background-color: oklch(0.215 0.01 305);
+      --nav-border-bottom-color: oklch(0.285 0.011 308);
+      --nav-current-border-bottom-color: oklch(0.55 0.18 313);  /* primary-500 */
+
+      --up-border-left-color: oklch(0.68 0.16 150);      /* success-500 */
+      --tag-up-background-color: oklch(0.68 0.16 150);
+      --degraded-border-left-color: oklch(0.8 0.15 80);  /* warning-500 */
+      --tag-degraded-background-color: oklch(0.8 0.15 80);
+      --change-background-color: oklch(0.8 0.15 80);
+      --down-border-left-color: oklch(0.6 0.22 24);      /* error-500 */
+      --tag-down-background-color: oklch(0.6 0.22 24);
+      --down-background-color: oklch(0.3 0.09 24);
+      --tag-color: oklch(0.165 0.008 305);
+
+      --submit-button-background-color: oklch(0.55 0.18 313);
+      --submit-button-border-color: oklch(0.45 0.16 313);
+      --submit-button-color: oklch(0.99 0.003 70);
+      --error-button-background-color: oklch(0.55 0.18 313);
+      --error-button-border-color: oklch(0.45 0.16 313);
+      --error-button-color: oklch(0.99 0.003 70);
+    }
