@@ -46,11 +46,12 @@ status-website:
       --tag-down-background-color: oklch(0.6 0.22 24);
       --down-background-color: oklch(0.3 0.09 24);
       --tag-color: oklch(0.165 0.008 305);
+    }
 
-      --submit-button-background-color: oklch(0.55 0.18 313);
-      --submit-button-border-color: oklch(0.45 0.16 313);
-      --submit-button-color: oklch(0.99 0.003 70);
-      --error-button-background-color: oklch(0.55 0.18 313);
-      --error-button-border-color: oklch(0.45 0.16 313);
-      --error-button-color: oklch(0.99 0.003 70);
+    /* The one piece of chrome global.css hardcodes (`background: #01a3a4`), so the
+       --submit-button-* variables the theme declares are never actually read. */
+    .submit-button.submit-button {
+      background: oklch(0.55 0.18 313);
+      color: oklch(0.99 0.003 70);
+      border-color: transparent;
     }
