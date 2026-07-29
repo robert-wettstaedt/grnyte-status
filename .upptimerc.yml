@@ -8,13 +8,13 @@ sites:
   - name: Prod sync
     url: https://zero.grnyte.rocks
   - name: Prod accounts
-    url: https://vamttgjugazgeujczjcr.supabase.co/auth/v1/health
+    url: https://vamttgjugazgeujczjcr.supabase.co/auth/v1/callback
   - name: Demo
     url: https://demo.grnyte.rocks
   - name: Demo sync
     url: https://zero.demo.grnyte.rocks
   - name: Demo accounts
-    url: https://niniugtqbfituyzfoapv.supabase.co/auth/v1/health
+    url: https://niniugtqbfituyzfoapv.supabase.co/auth/v1/callback
 
 status-website:
   cname: status.grnyte.rocks
