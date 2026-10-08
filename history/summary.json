@@ -22,10 +22,10 @@
     "url": "https://zero.grnyte.rocks",
     "icon": "https://icons.duckduckgo.com/ip3/zero.grnyte.rocks.ico",
     "slug": "prod-sync",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 507,
@@ -33,7 +33,9 @@
     "timeWeek": 496,
     "timeMonth": 490,
     "timeYear": 507,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-08": 1
+    }
   },
   {
     "name": "Prod accounts",
@@ -78,9 +80,9 @@
     "url": "https://zero.demo.grnyte.rocks",
     "icon": "https://icons.duckduckgo.com/ip3/zero.demo.grnyte.rocks.ico",
     "slug": "demo-sync",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -89,7 +91,9 @@
     "timeWeek": 466,
     "timeMonth": 447,
     "timeYear": 507,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-08": 0
+    }
   },
   {
     "name": "Demo accounts",
