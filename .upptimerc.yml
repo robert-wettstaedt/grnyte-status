@@ -7,6 +7,10 @@ sites:
     url: https://grnyte.rocks
   - name: Prod sync
     url: https://zero.grnyte.rocks
+  - name: Prod PowerSync
+    url: https://sync.grnyte.rocks/probes/liveness
+  - name: Prod PowerSync health
+    url: https://sync.grnyte.rocks/health/sync
   - name: Prod accounts
     url: https://vamttgjugazgeujczjcr.supabase.co/auth/v1/callback
 
